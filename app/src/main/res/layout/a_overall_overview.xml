@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.qs.minigridv5.activities.AOverallOverview">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_margin="24dp">
+
+                    <TextView
+                            android:id="@+id/a_overall_overview_header"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="28sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                    />
+
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                        android:id="@+id/a_overall_overview_items_list"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none"
+                        android:layout_marginStart="36dp"
+                        android:layout_marginEnd="36dp"
+                        android:layout_gravity="center_horizontal">
+
+
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <Button
+                android:id="@+id/a_overview_next_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyButton"
+                android:drawableEnd="@drawable/ic_chevron_right_white_24dp"
+                android:text="@string/_continue"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="18dp"
+                android:onClick="onContinueClick"
+
+        />
+
+    </FrameLayout>
+
+    <RelativeLayout android:id="@+id/a_dikhao_complete_congo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg"
+                    android:clickable="true"
+                    android:visibility="gone">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/illustration_success_finish_all_sections"
+                android:id="@+id/a_cam_congo_img"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" android:layout_marginTop="54dp"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_close_white_24dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:padding="16dp"
+        />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/congratulations"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_below="@+id/a_cam_congo_img"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp" android:textStyle="bold" android:id="@+id/textView"/>
+
+        <TextView
+                android:id="@+id/a_cam_congo_text"
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/dikhao_complete_congo_text"
+                android:layout_gravity="start"
+                android:textAlignment="center" android:textColor="@color/white"
+                android:layout_below="@+id/textView" android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"/>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

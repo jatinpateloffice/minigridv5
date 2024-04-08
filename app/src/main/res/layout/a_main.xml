@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.qs.minigridv5.activities.AMain">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="com.qs.minigridv4.activities.AMain">
+
+            <android.support.v7.widget.Toolbar
+                    android:id="@+id/a_main_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:titleTextColor="@color/white"
+                    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+            <FrameLayout
+                    android:id="@+id/a_main_content_frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="bottom">
+
+            <!--<Button-->
+                    <!--android:layout_width="240dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="bottom|center"-->
+                    <!--android:layout_margin="16dp"-->
+                    <!--android:gravity="center"-->
+                    <!--style="@style/MyButton"-->
+                    <!--android:onClick="startNewMovieProject"-->
+                    <!--android:drawableStart="@drawable/ic_add_white_24dp"-->
+                    <!--android:text="@string/new_movie_button_text"-->
+            <!--/>-->
+
+            <LinearLayout
+                    android:id="@+id/a_make_new_movie_btn"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/round_button_accent"
+                    android:orientation="horizontal"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:onClick="startNewMovieProject"
+                    android:elevation="6dp">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_add_white_24dp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/new_movie_button_text"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:layout_marginStart="10dp" />
+
+            </LinearLayout>
+
+            <android.support.design.widget.BottomNavigationView
+                    android:id="@+id/a_main_bottom_nav_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    app:itemIconTint="@drawable/bottom_nav_item"
+                    app:itemTextColor="@drawable/bottom_nav_item"
+                    android:background="@color/white"
+                    app:menu="@menu/navigation"/>
+        </LinearLayout>
+
+        <!--overlays-->
+        <FrameLayout android:id="@+id/a_main_overlay_intro"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:background="@color/translu_dark_gray"
+                     android:clickable="true"
+                     android:visibility="gone">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="56dp"
+                    android:background="@drawable/rect_button_white">
+
+                <TextView
+                        android:id="@+id/a_main_intro_overlay_header"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="22sp"
+                        android:text="Banao"
+                        android:textColor="@color/colorPrimaryLight"
+                        android:layout_marginBottom="12dp"
+                        android:layout_gravity="start"/>
+
+                <TextView
+                        android:id="@+id/a_main_intro_overlay_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Tap on this button if you want to see your progress"
+                        android:layout_gravity="start"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout android:id="@+id/a_main_overlay_new_movie"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:background="@color/translu_dark_gray"
+                     android:clickable="true"
+                     android:visibility="gone">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginEnd="56dp"
+                    android:layout_marginBottom="124dp"
+                    android:orientation="vertical">
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="24dp"
+                        android:background="@drawable/rect_button_white">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="@string/press_this_button_to_make_a_new_film"
+                            android:layout_gravity="start"/>
+
+                </LinearLayout>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/triangle"
+                        android:layout_gravity="center_horizontal"
+                        android:rotation="90"
+                        android:layout_marginTop="-4dp"
+                />
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout android:id="@+id/a_main_overlay_current_project"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:background="@color/translu_dark_gray"
+                     android:clickable="true"
+                     android:visibility="gone">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginEnd="56dp"
+                    android:layout_marginTop="96dp"
+                    android:orientation="vertical">
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/triangle"
+                        android:layout_gravity="center_horizontal"
+                        android:rotation="270"
+                        android:layout_marginBottom="-4dp"
+                />
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="24dp"
+                        android:background="@drawable/rect_button_white">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="@string/tap_this_button_to_continue_this_project"
+                            android:layout_gravity="start"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout android:id="@+id/a_main_overlay_complete_project"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:background="@color/translu_dark_gray"
+                     android:clickable="true"
+                     android:visibility="gone">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginEnd="56dp"
+                    android:layout_marginTop="96dp"
+                    android:orientation="vertical">
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/triangle"
+                        android:layout_gravity="center_horizontal"
+                        android:rotation="270"
+                        android:layout_marginBottom="-4dp"
+                />
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="24dp"
+                        android:background="@drawable/rect_button_white">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="@string/tap_this_button_to_complete_your_edited_project"
+                            android:layout_gravity="start"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout android:id="@+id/a_main_overlay_help"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:background="@color/translu_dark_gray"
+                     android:clickable="true"
+                     android:visibility="gone">
+
+            <LinearLayout
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|end"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="48dp"
+                    android:orientation="vertical">
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/triangle"
+                        android:layout_gravity="end"
+                        android:rotation="270"
+
+                        android:layout_marginBottom="-4dp"
+                />
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="24dp"
+                        android:background="@drawable/rect_button_white">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="@string/tap_on_this_button_if_you_need_help"
+                            android:layout_gravity="start"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

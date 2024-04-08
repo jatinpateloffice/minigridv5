@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="0dp">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <VideoView
+                android:id="@+id/x_scene_edit_clip_videoview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/x_scene_edit_clip_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12s"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+        <ImageView
+                android:id="@+id/x_scene_edit_clip_mask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/translu_rect"
+                android:tint="@color/dark_gray" />
+
+    </FrameLayout>
+</android.support.v7.widget.CardView>

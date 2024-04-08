@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/38b80b4c2572dc51750c6c368906ed27d2f71b41/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ae6d33f37143b08cd8c477c9e348d61ef7ed7eba">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_93751df837e467a0a725c39914244be3a2d5be46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/d33f68779520c3807bc84d27a8613b85809ea5a7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="874f1143c11f5d38533efe512bf913e3e847e7df">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ade87eea140fb6883623bdb816ace4bd316009ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.2/bfc967828daffc35ba01c9ee204d98b664930a0f/constraint-layout-solver-1.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="bfc967828daffc35ba01c9ee204d98b664930a0f">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.1.2_2de504bc53060e583d55ff2bd691efa46ebdc059/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dec00701af1b2ba1012c2dc9bf23cb31eb6cb9c6">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_17f0ac84c3fa18abc4d87f787cc2446a22bee979/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/9873e0dc4576fec1b1cd0c2b9910704761fcd500/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d968b9bd0011800e0d333d1571b8d34bcb8a0b6e">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_320c1879db5a7dbd1499f282d31f75312c1dec62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/f168cce09f50786747500a91f13bd497e7a3b241/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e70a3fed299d84cd868614e11021664d72b8e488">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c06980bd8447f19934f39f71e8b20daf5c581070/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/5df2c946cf6edd40b9fc512aab48611e74ae0fd3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c3496cf627fbccf07b70b8dd7300f62b4b691538/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/d246f185e80a31b3bf5020b3dc6160c52af8288f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="7038c6d960d3fe26fd41bc509f256c9692d886ce">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e4fe0c12e35cf45209b7eb51532aa6475c1c6220/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.1.0_a121e268deca3828694ad6956d8c53487201e406/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/64e0c5466db285d7592fad4c50441c40d648b852/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4798b2c2dd1fa53176696fa416890d27acbf5617">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f510dcab14b7a7d311c304e2d4165f78a64d656d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/b359669a7ec7e067f520e70c70ff4d75f38ee5af/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="58e00c2c80a92b161c84cba53acb4477979e67b9">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b0886a041c519b0c3622e4d2fb99ee2086d2ca56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/07e7ccbf5d5628892d43fccb8f7a2d389f939692/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4d2b8ad415048e88b41ba4afcaafe36150e69b8c">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_711930989fa3ed95fbcff819c6e4b531e7eff0c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/5353ea8482c6e901c1daa5a96607383a5855d039/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3304d33470ff64cf83bce9189ff3648a42eb2aa7">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bcffdf648b5adba9af6e8279d41ebdb40cfaa2bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_aa85117deb0d64216442eac3ef4c31d01bd23d32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-27.1.1_836454d20bbc2e3764a0ca261c40afc338cb828e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.8.0/a7448551cb3edd61bcf3d1b1136b670e630441cf/disklrucache-4.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a7448551cb3edd61bcf3d1b1136b670e630441cf">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/disklrucache-4.8.0_934358f9a0449b53e41d0807fd68e69924a525a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/fea759f92e25a9fad390faeb89a0cae84d4acfca/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8e7de1a5c71da892634ee36c77c458e45e8226ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/2122abb614633b7d7d1dc5bf8ff00bc59b0a5cc0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ef8109189901ec7e9dd49aa71b28def416715d8e">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_582d2d280c4bb76e79be8ea7be47e7e7aa1a5fe5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.8.0/c4c9e79eb2bfeb9059fce55020c6b237402285f6/annotations-4.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c4c9e79eb2bfeb9059fce55020c6b237402285f6">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/annotations-4.8.0_bb0cb42c84d8d1f6e3f4a7908bbf5db657fbbefb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/3541bac9e72ccc285096aa3f934b8ee184ed7704/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="cd43d71aaa1a0cffd99bd105acd1fe0454ace4dd">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ad486caffcc26e62b3a3b047372b50032ebd6e8c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/ed665ab606dcd5e904c1ec1f35bb039b5bf04cb7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3412b8c256ecf4b6a4807ca96f797a704d724a93">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6421dc1311a648b93284fb8865895f4039221574/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_3db396225743914b2f95a421e2a4aa6e912dfc09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/a467b8061873a57377882d064b52c47998cc0857/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="221de83c08ed1502286513b4d472d256341e8839">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ac7c744165a1a3fe78b1d315e57873512e0b4fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/a9d94e3e923ec9f61a81e9b416511993405dfe1e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2feadd535770271ca57b7b431f42151aa4af324a">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d3405cd54d9265419507a54fbdfbff088746516f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/c13adcec6a77fe8fe4030f1b33ad072d63da1074/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4ee234569b5c8732cad0632b09c043d25291f456">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f10d52054bd85affce8a9746535088d53e569f57/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/47d8de6a227732deeff2768049300a5d8c46b30a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9bdfc3e83c6bc1f8bc5807cdaf7e94ac884a2a0d">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_70e2bcdef36bb5771acaee40d4419986154a67cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/5f41166f6a8eaf98096da5170e14c7a53e1d92ed/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c9a721adcd7dbae7a197b0ef81102336539f63ff">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_63571f01efbc292585b9f457ec72fe4c4a605199/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/4f2a03aeb6e1ffb7db6d63c4be9ce0c3057a7ab8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5a915c4068bfd1b8adfb706a07540804026a8d80/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/50eedc14cf2c6c110fb0cb6988587599f92c4406/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="182370a4a0bba7903c6ff2cb7b6ac21ca4a4bf89">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c96456477f54bcee7d3f303a6cd816411985f7bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/38b24f86dff119f4fe92ec3d921a36c6f1d083ef/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ec657bb192b20229696216bf233779b16bf75a54">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5bd4b8e08b0779995f5af7ff0e31abe3e801345e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/9279b1611fa86103b34aad42d619df3c08eddae4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="137cc24b3b2b45eaebfbf99fb9d539a868a93137">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f2f171ee176fda8d83b7aa0086a0c9e33e36fdc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/e28cd7f7fe8e828da96551df1c7d5d850148ed4b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="cc3361135ffc847aa8a27ef2276bd6b2dcd0054d">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a41afdf08dc06f780e3945774fb8d14e628c6007/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/ff467e46bb23bd7439ab6aaad303bea5397b5558/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="88c68e5ef7c5ace393d014c9ec5fe736b1ca55cf">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03da59855055ec158f5318f38c81e8e7c4c669e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/36e13da6d3f96de86dc73a045ccaf787dfa6eb2c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0c005cf2a2c9a42b661357c88ff518b663892098">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a4295d99bce1651e8c62171de9733e74c891da4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c1f56b35d418c0ead56ecb7d47be87f8e6b6428b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.1.0_13e6231e825d153949d462fadb0b70be082fd4fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/2abf7f3b92fd63601ba206d533e8d8668adc8ed5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="23dcb4803d3103bde3f3f5db978a726338fe49ae">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a7143b0ae64efefbcd5c4343de07f108e2f5bfd3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pranay/.android/build-cache/d8aec1bf8d52dc202e333a910693dcafb5552d92/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aeacf8fc2c8267259cfe46b92195646f7de5806e/classes.dex" />
+    </item>
+
+</items>

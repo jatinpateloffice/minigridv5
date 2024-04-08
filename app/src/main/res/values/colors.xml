@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimaryLight">#0194ec</color>
+    <color name="colorPrimary">#0c3355</color>
+    <color name="colorPrimaryDark">#0d253b</color>
+    <color name="colorAccent">#4abc34</color>
+
+    <color name="bg_color">#05131c</color>
+    <color name="muxing_bg_color">#071B2B</color>
+
+
+    <color name="translu_colorAccent">#a74abc34</color>
+    <color name="white">#FFFFFF</color>
+    <color name="translu_white">#89ffffff</color>
+    <color name="red">#f7374e</color>
+    <color name="orange">#e56a25</color>
+    <color name="transparent">#00ff5959</color>
+    <color name="gray">#848484</color>
+    <color name="bg_gray">#f6f6f6</color>
+    <color name="light_gray">#f6f6f6</color>
+    <color name="black">#000000</color>
+    <color name="dark_gray">#292929</color>
+    <color name="translu_gray">#97848484</color>
+    <color name="translu_dark_gray">#90292929</color>
+    <color name="translu_black">#85000000</color>
+    <color name="translu_blue">#920177bd</color>
+    <color name="translu_dark_blue">#cf07233c</color>
+    <color name="green">#3bff42</color>
+    <color name="faint_green">#b1ffb3</color>
+    <color name="yellow">#ffe944</color>
+    <color name="translu_yellow">#6bffe944</color>
+    <color name="dark_yellow">#cbb239</color>
+</resources>

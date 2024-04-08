@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.qs.minigridv5.fragments.FProjectTellScenes">
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/f_edit_tell_scenes_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/transparent"
+            android:dividerHeight="0dp"
+            android:clipToPadding="false"
+            android:scrollbars="none"
+            android:paddingBottom="82dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="16dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</FrameLayout>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.qs.minigridv5.activities.AAudioRecorder">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <SeekBar
+                    android:id="@+id/a_recorder_project_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:clickable="false"
+                    android:tickMark="@drawable/tickmark"
+                    android:progressTint="@color/colorPrimaryLight"
+                    android:thumb="@drawable/progress_thumb"
+                    android:progress="34"/>
+
+            <ImageView
+                    android:id="@+id/a_recorder_help"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_help_outline_white_24dp"
+                    android:layout_gravity="end"
+                    android:padding="12dp"
+            />
+
+        </FrameLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+            <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="true"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:layout_weight="1">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="12dp">
+
+                    <TextView
+                            android:id="@+id/a_recorder_scene_header"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|top"
+                            android:textStyle="bold"
+                            android:textSize="22sp"
+                            android:text="25 sec me kuch boliye"
+                            android:layout_marginBottom="12dp"
+                            android:textColor="@color/white"
+                    />
+
+
+                    <TextView
+                            android:id="@+id/a_recorder_scene_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="jkasdbfjkab k lans l"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            <VideoView
+                    android:id="@+id/a_recorder_wave"
+                    android:layout_width="match_parent"
+                    android:layout_height="156dp"
+                    android:src="@drawable/round_button_red"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_marginTop="24dp"
+                    android:visibility="invisible"
+            />
+
+            <TextView
+                    android:id="@+id/a_recorder_timer_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="48sp"
+                    android:text="0"
+                    android:layout_above="@+id/a_recorder_record_btn"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="24dp"/>
+
+
+            <ImageView
+                    android:id="@+id/a_recorder_hold_close_help_container"
+                    android:layout_width="100dp"
+                    android:layout_height="102dp"
+                    android:src="@drawable/group_2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_above="@+id/a_recorder_record_btn"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="24dp"
+            />
+
+
+            <FrameLayout
+                    android:id="@+id/a_recorder_record_btn"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_marginBottom="24dp"
+                    android:layout_above="@+id/a_recorder_progressbar_container"
+                    android:layout_centerHorizontal="true">
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/round_button_red"
+                />
+                <ImageView
+                        android:id="@+id/a_recorder_start_icon"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:src="@drawable/ic_keyboard_voice_white_24dp"
+                        android:layout_gravity="center"
+                        android:tint="@color/white"
+                />
+                <ImageView
+                        android:id="@+id/a_recorder_stop_icon"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:src="@drawable/ic_stop_white_24dp"
+                        android:layout_gravity="center"
+                        android:tint="@color/white"
+                />
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/a_recorder_progressbar_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom">
+                <ProgressBar
+                        android:id="@+id/a_recorder_progress"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:progressDrawable="@drawable/cam_progress_bar"
+                        android:progress="34"
+                />
+                <TextView
+                        android:id="@+id/a_recorder_remaining_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="00"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginEnd="8dp"
+                />
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--overlays-->
+    <FrameLayout android:id="@+id/a_audio_rec_intro_overlay"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:background="@color/translu_dark_gray"
+                 android:clickable="true"
+                 android:visibility="gone">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="24dp"
+                android:layout_gravity="center">
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="24dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/rect_button_white">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="22sp"
+                        android:text="@string/batao"
+                        android:textColor="@color/colorPrimaryLight"
+                        android:layout_marginBottom="12dp"
+                        android:layout_gravity="start"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@color/gray"
+                        android:text="@string/audio_rec_intro_text"
+                        android:layout_gravity="start"/>
+
+                <TextView
+                        android:id="@+id/a_cam_intro_okay_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="@string/ok"
+                        android:textColor="@color/colorPrimaryLight"
+                        android:padding="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_gravity="start"/>
+
+                <TextView
+                        android:id="@+id/a_audio_rec_nai_samja_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="@string/nai_samja"
+                        android:textColor="@color/colorPrimaryLight"
+                        android:padding="12dp"
+                        android:layout_gravity="start"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout android:id="@+id/a_audio_rec_overview_overlay"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:background="@color/translu_dark_gray"
+                 android:clickable="true"
+                 android:visibility="gone">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginEnd="108dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="top|end">
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="24dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/rect_button_white">
+
+                <TextView
+                        android:layout_width="156dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@color/gray"
+                        android:text="@string/overview_overlay_desc_text"
+                        android:layout_gravity="start"/>
+            </LinearLayout>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/triangle"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="-4dp"
+                    android:rotation="0"
+            />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.qs.minigridv5.activities.ACam">
+
+    <FrameLayout
+            android:id="@+id/a_cam_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </FrameLayout>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:id="@+id/a_cam_focus_circle"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                app:srcCompat="@drawable/round_button_wire_blue"
+                android:visibility="invisible"
+                />
+
+    </FrameLayout>
+
+    <LinearLayout
+            android:id="@+id/a_cam_scene_hint_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="16dp"
+            android:orientation="horizontal"
+            android:background="@color/translu_dark_blue">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="16dp"
+                app:srcCompat="@drawable/ic_chevron_left_white_24dp"/>
+
+        <TextView
+                android:id="@+id/a_cam_scene_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scene Hint"
+                android:textColor="@color/white"
+                android:layout_gravity="center|start"
+                android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/a_cam_scene_hint_container_maximizer"
+            android:layout_width="wrap_content"
+            android:layout_height="300px"
+            android:layout_centerVertical="true"
+            android:background="@color/translu_dark_blue">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10px"
+                android:layout_marginStart="10px"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_chevron_right_white_24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/a_cam_selfie_scene_hint_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:padding="16dp"
+            android:background="@color/translu_dark_blue"
+            android:visibility="invisible"
+            >
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="16dp"
+                app:srcCompat="@drawable/ic_chevron_left_white_24dp"/>
+
+        <TextView
+                android:id="@+id/a_cam_selfie_scene_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category Hint"
+                android:textColor="@color/white"
+                android:layout_gravity="center|start"
+                android:textSize="18sp"/>
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/a_cam_delete_clip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_video_library_white_24dp"
+            android:padding="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="28dp"
+            />
+
+    <SeekBar
+            android:id="@+id/a_cam_project_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:clickable="false"
+            android:tickMark="@drawable/tickmark"
+            android:progressTint="@color/colorPrimaryLight"
+            android:thumb="@drawable/progress_thumb"
+            android:progress="34"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:layout_marginTop="36dp"
+            >
+
+        <ImageView
+                android:id="@+id/a_cam_rec_dot"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:src="@drawable/round_button_red"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="6dp"
+                />
+
+        <TextView
+                android:id="@+id/a_cam_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:visibility="invisible"
+                />
+    </LinearLayout>
+
+    <FrameLayout
+            android:id="@+id/a_cam_action"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/round_button_red"
+                />
+
+        <ImageView
+                android:id="@+id/a_cam_start_icon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_videocam_white_24dp"
+                android:layout_gravity="center"
+                android:tint="@color/white"
+                />
+
+        <ImageView
+                android:id="@+id/a_cam_stop_icon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_pause_white_24dp"
+                android:layout_gravity="center"
+                android:tint="@color/white"
+                />
+    </FrameLayout>
+
+    <ImageView
+            android:id="@+id/a_cam_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_help_outline_white_24dp"
+            android:layout_gravity="center"
+            android:layout_alignParentEnd="true"
+            android:padding="16dp"
+
+            />
+
+    <ImageView
+            android:id="@+id/a_cam_overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_linear_scale_white_24dp"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="56dp"
+            android:visibility="gone"
+            />
+
+    <TextView
+            android:id="@+id/a_cam_scene_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:padding="16dp"
+            android:textColor="@android:color/white"
+            />
+
+    <FrameLayout
+            android:id="@+id/a_cam_progressbar_container"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_alignParentBottom="true">
+
+        <ProgressBar
+                android:id="@+id/a_cam_progress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:progressDrawable="@drawable/cam_progress_bar"
+                android:progress="34"
+                />
+
+        <TextView
+                android:id="@+id/a_cam_remaining_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="8dp"
+                />
+    </FrameLayout>
+
+    <FrameLayout
+            android:id="@+id/a_cam_clip_player"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+        <VideoView
+                android:id="@+id/a_cam_clip_player_videoview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        <Button
+                android:id="@+id/a_cam_clip_player_save_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyButton"
+                android:drawableEnd="@drawable/ic_done_white_24dp"
+                android:text="@string/save"
+                android:layout_gravity="end|bottom"
+                android:layout_marginEnd="56dp"
+                android:layout_marginBottom="16dp"
+                />
+
+
+        <Button
+                android:id="@+id/a_cam_clip_player_delete_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyNegativeButton"
+                android:drawableEnd="@drawable/ic_autorenew_white_24dp"
+                android:text="@string/re_record"
+                android:layout_gravity="start|bottom"
+                android:layout_marginStart="56dp"
+                android:layout_marginBottom="16dp"
+                />
+
+    </FrameLayout>
+
+    <!--overlays-->
+    <FrameLayout
+            android:id="@+id/a_cam_intro_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/translu_dark_gray"
+            android:clickable="true"
+            android:visibility="gone">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="24dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/rect_button_white">
+
+                <TextView
+                        android:id="@+id/a_cam_intro_overlay_header"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="22sp"
+                        android:text="@string/dikhao"
+                        android:textColor="@color/colorPrimaryLight"
+                        android:layout_marginBottom="12dp"
+                        android:layout_gravity="start"/>
+
+                <TextView
+                        android:id="@+id/a_cam_intro_overlay_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="@string/cam_overlay_dikhao_intro_text"
+                        android:layout_gravity="start"/>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="horizontal"
+                        >
+
+                    <TextView
+                            android:id="@+id/a_cam_intro_okay_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="@string/ok"
+                            android:textColor="@color/colorPrimaryLight"
+                            android:padding="12dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="start"/>
+
+                    <TextView
+                            android:id="@+id/a_cam_nai_samja_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="@string/nai_samja"
+                            android:textColor="@color/colorPrimaryLight"
+                            android:padding="12dp"
+                            android:textAlignment="textEnd"
+                            android:layout_gravity="end"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+            android:id="@+id/a_cam_view_clip_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/translu_dark_gray"
+            android:clickable="true"
+            android:visibility="gone">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="56dp"
+                android:layout_marginBottom="36dp"
+                android:layout_gravity="bottom|start">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/triangle"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="-4dp"
+                    android:rotation="180"
+                    />
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="24dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/rect_button_white">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="22sp"
+                        android:text="@string/waych_prev_clip"
+                        android:textColor="@color/colorPrimaryLight"
+                        android:layout_marginBottom="12dp"
+                        android:layout_gravity="start"/>
+
+                <TextView
+                        android:layout_width="156dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="@string/you_can_record_this_again"
+                        android:layout_gravity="start"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+            android:id="@+id/a_cam_overview_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/translu_dark_gray"
+            android:clickable="true"
+            android:visibility="gone">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginEnd="108dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="top|end">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="24dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/rect_button_white">
+
+                <TextView
+                        android:layout_width="156dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="@string/overview_overlay_desc_text"
+                        android:layout_gravity="start"/>
+            </LinearLayout>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/triangle"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="-4dp"
+                    android:rotation="0"
+                    />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <!--congos-->
+    <RelativeLayout
+            android:id="@+id/a_cam_congo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg"
+            android:clickable="true"
+            android:visibility="gone">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/congrats_illustration"
+                android:id="@+id/a_cam_congo_img"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="23dp"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_close_white_24dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:padding="16dp"
+                />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/congratulations"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_below="@+id/a_cam_congo_img"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                android:id="@+id/textView"/>
+
+        <TextView
+                android:id="@+id/a_cam_congo_text"
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/first_clip_congo_text"
+                android:layout_gravity="start"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        android:layout_marginBottom="16dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+            <ImageView
+                    android:id="@+id/x_learn_movie_item_thumbnail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+
+            <!--play button-->
+            <FrameLayout
+                    android:id="@+id/x_learn_movie_item_play_btn"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center">
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/round_button_translu_black"
+                />
+                <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/ic_play_arrow_white_24dp"
+                        android:layout_gravity="center"
+                />
+            </FrameLayout>
+
+            <!--share button-->
+            <ImageView
+                    android:id="@+id/x_learn_movie_item_share_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_share_white_24dp"
+                    android:layout_gravity="top|end"
+                    android:padding="12dp"
+
+            />
+
+        </FrameLayout>
+
+        <TextView
+                android:id="@+id/x_learn_movie_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:text="Movie Title"
+        />
+
+        <TextView
+                android:id="@+id/x_learn_movie_item_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Movie Desc"
+        />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

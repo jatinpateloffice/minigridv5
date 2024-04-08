@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="com.qs.minigridv5.fragments.FCommunity">
+
+    <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:backgroundTint="@color/colorPrimary">
+
+            <android.support.design.widget.TabLayout
+                    android:id="@+id/f_webvideos_tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:tabMode="fixed"
+                    app:tabTextColor="@color/white"
+                    app:tabSelectedTextColor="@color/white"
+                    app:tabIndicatorColor="@color/white"
+                    app:tabGravity="fill"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+                android:id="@+id/f_community_webvideos_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <FrameLayout
+            android:id="@+id/f_community_no_internet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/no_wifi_illustration"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="120dp"/>
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_internet_connection"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="270dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryLight"/>
+
+        <TextView
+                android:id="@+id/f_community_try_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/try_again"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="320dp"
+                android:textSize="18dp"
+                android:padding="12dp"
+                android:background="@color/light_gray"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryLight"/>
+    </FrameLayout>
+
+</FrameLayout>

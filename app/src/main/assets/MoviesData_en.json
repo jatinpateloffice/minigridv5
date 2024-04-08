@@ -1,0 +1,650 @@
+{
+  "M0": {
+    "ID": 0,
+    "title": "My Business",
+    "for":1,
+    "scenes":[
+      {
+        "C0":{
+          "title": "My Introduction",
+          "type":1,
+          "video_text":"
+          <b>Introduce Yourself<br/>in 12 Seconds</b><br/><br/>
+          - Your Name<br/>
+          - Your Village<br/>
+          - Your Work",
+          "video_length":12,
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": -1,
+                "audio_text":""
+              }
+            }
+          ]
+
+        }
+      },
+      {
+        "C1":{
+          "title": "On my Business",
+          "type":2,
+          "video_length":30,
+          "video_text":"
+          In 30 seconds, show your place<br/>
+          of work from the outside",
+          "audio_header":"Talk about your business in 25 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 25,
+                "audio_text": "
+                - What kind of business do you have?<br/>
+                - When did you start it?<br/>
+                - What is a typical day at work like?
+                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C2":{
+          "title":"My Customers",
+          "type":2,
+          "video_length":20,
+          "video_text":"
+          In 20 seconds, show your place<br/>
+          of work from the inside",
+          "audio_header":"Talk about your customers in 15 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 15,
+                "audio_text":"
+                - What kind of customers do you get?<br/>
+                - What services do you provide them?"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C3":{
+          "title":"Electricity & Business",
+          "type":2,
+          "video_length":30,
+          "video_text":"
+          In 30 seconds, show some<br/>
+          work being done",
+          "audio_header":"Talk about electricity and your business in 25 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 25,
+                "audio_text":"
+                - What do you run on your solar connection?<br/>
+                - Did you have any problems with government electrcity?<br/>
+                - What impact has the solar connection had on your business?"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C4":{
+          "title":"Help from Grid Company",
+          "type":2,
+          "video_length":30,
+          "video_text":"
+          In 30 seconds, take a video<br/>
+          of the machines you run",
+          "audio_header":"Describe any help from the grid company in 25 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 25,
+                "audio_text":"
+                - What plan do you have to grow your business?<br/>
+                - Have to taken a loan or machine from the mini grid company? Elaborate if yes. If no, then what would you get?"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C5":{
+          "title":"Next Steps",
+          "type":1,
+          "video_length":15,
+          "video_text":"
+          <b>Talk about your vision<br/>for the future in 15 seconds</b><br/><br/>
+          Where do you see yourself<br/>a couple of years from now?
+          ",
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": -1,
+                "audio_text":""
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "M1": {
+    "ID": 1,
+    "title": "My Story",
+    "for":1,
+    "scenes":[
+      {
+        "C0":{
+          "title": "My Introduction",
+          "type":1,
+          "video_text":"
+          <b>Introduce Yourself in<br/>15 seconds</b><br/><br/>
+          - Your Name<br/>
+          - Your Village",
+          "video_length":15,
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": -1,
+                "audio_text":""
+              }
+            }
+          ]
+
+        }
+      },
+      {
+        "C1":{
+          "title": "Home",
+          "type":2,
+          "video_length":30,
+          "video_text":"
+          <b>In 30 seconds, take a video<br/>of 5 of the 10 things below</b>
+          <br/><br/>
+          Your house from the outside,<br/>
+          Your TV, A family photo, <br/>
+          Your children or relatives, <br/>
+          Your kitchen, Your vehicle, <br/>
+          Your favourite shirt, One room<br/>
+          in your house, A mirror, A cupboard
+          ",
+          "audio_header":"Perform something in 30 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 25,
+                "audio_text": "
+                Sing your favourite song or recite a line from your favourite movie
+                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C2":{
+          "title":"Village",
+          "type":2,
+          "video_length":40,
+          "video_text":"
+          <b>In 40 seconds, take a video of<br/>5 out of the 10 things below</b>
+          <br/><br/>
+          A nearby shop, A road,<br/>
+          Electricity distribution wires,<br/>
+          A temple or mosque, The police<br/>
+          station, A school, An office,<br/>
+          A field / farmland, Your friend, <br/>
+          Your friend's house
+          ",
+          "audio_header":"Talk about a hobby in 15 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 15,
+                "audio_text":"Talk about one of your hobbies (anything counts!)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C3":{
+          "title":"Normal Day",
+          "type":1,
+          "video_length":15,
+          "video_text":"
+          <b>Talk about a normal<br/>day in 15 seconds</b><br/><br/>
+          How do you typically<br/>spend your day?",
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": -1,
+                "audio_text":""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C4":{
+          "title":"Someone Else's Introduction",
+          "type":2,
+          "video_length":20,
+          "video_text":"
+          <b>Take a video of someone else<br/>in 20 seconds</b>
+          <br/><br/>
+          Take a video of your friend<br/>or relative",
+          "audio_header":"Talk about someone else in 15 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 15,
+                "audio_text":"Talk about your friend or relative"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C5":{
+          "title":"My Philosophy",
+          "type":1,
+          "video_length":30,
+          "video_text":"
+          <b>Talk about your philosophy<br/>in 30 seconds</b>
+          <br/><br/>
+          According to you, what is most<br/>necessary to lead a good life?
+          ",
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": -1,
+                "audio_text":""
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "M2": {
+    "ID": 2,
+    "title": "My Home",
+    "for":1,
+    "scenes":[
+      {
+        "C0":{
+          "title": "My Introduction",
+          "type":1,
+          "video_text":"
+          <b>Introduce Yourself in<br/>12 seconds</b><br/><br/>
+          - Your Name<br/>
+          - Your Village<br/>
+          - Your Work",
+          "video_length":12,
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": -1,
+                "audio_text":""
+              }
+            }
+          ]
+
+        }
+      },
+      {
+        "C1":{
+          "title": "My Family",
+          "type":2,
+          "video_length":25,
+          "video_text":"In 25 seconds, show<br/>your family",
+          "audio_header":"Talk about your family in 20 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 20,
+                "audio_text": "
+                - What lessons have you learnt from your family?<br/>
+                - What does family do in their free time?
+                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C2":{
+          "title":"My Home",
+          "type":2,
+          "video_length":25,
+          "video_text":"In 25 seconds, show<br/>your home",
+          "audio_header":"Talk about your home in 20 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 20,
+                "audio_text":"
+                - What are the things close to your house?<br/>
+                - How many rooms does your house have?<br/>
+                - What is the best thing in your house?"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C3":{
+          "title":"Electricity use",
+          "type":2,
+          "video_length":25,
+          "video_text":"In 20 seconds, show<br/>the appliances you run<br/>on electricity",
+          "audio_header":"Talk about your electricity use in 20 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 20,
+                "audio_text":"
+                - How long have you had electricity in your house for?<br/>
+                - What is the difference between government electricity and mini grid electricity?"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C4":{
+          "title":"Electricity Connection",
+          "type":2,
+          "video_length":25,
+          "video_text":"In 25 seconds, take a<br/>video of electricity being used",
+          "audio_header":"Talk about your electricity connection in 20 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 20,
+                "audio_text":"
+                - What do you run on electricity in your home?<br/>
+                - What impact has solar had on your community?"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C5":{
+          "title":"Next Steps",
+          "type":1,
+          "video_length":15,
+          "video_text":"
+          <b>Talk about your next<br/>steps in 15 seconds</b>
+          <br/><br/>
+          What do you hope to<br/>achieve in the future?",
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": -1,
+                "audio_text":""
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "M3": {
+    "ID": 3,
+    "title": "My Business 2",
+    "for":1,
+    "scenes":[
+      {
+        "C0":{
+          "title": "Introduction + Business",
+          "type":2,
+          "video_text":"
+          - Take one wide shot of your<br/>
+          business from the outside (5  sec)<br/>
+          - Take a tracking shot walking<br/>
+          inside the building (5 sec)<br/>
+          - Take a panning shot of the<br/>
+          inside from one side (5 sec)",
+          "video_length":15,
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 15,
+                "audio_text":"
+                - Introduce yourself (name, where you live) (5 sec)<br/>
+                - When did you start your business? (5 sec)<br/>
+                - Why did you choose this business? (5 sec)<br/>
+                "
+              }
+            }
+          ]
+
+        }
+      },
+      {
+        "C1":{
+          "title": "Business Introduction",
+          "type":1,
+          "video_length":5,
+          "video_text":"
+          Repeat the following line<br/>
+          with enthusiasm and joy:<br/><br/>
+          'Yeh mera business hai.<br/>
+          Aaiye andar chalte hain.'
+          ",
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": -1,
+                "audio_text": ""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C2":{
+          "title":"Relationship with Mini Grid",
+          "type":2,
+          "video_length":15,
+          "video_text":"
+          - Have a friend or somewhere<br/>
+          close by take a video of you doing<br/>
+          some work in your shop (10 sec)<br/>
+          - Show a close up of the machine(s)<br/>
+          you run on your mini grid connection (5 sec)
+          ",
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 15,
+                "audio_text":"
+                - What do you run on your solar connection?<br/>
+                - What impact has the solar connection had<br/>
+                on your business?<br/>
+                - Would you be able to run your business<br/>
+                without your mini grid connection?
+                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C3":{
+          "title":"Business Overview",
+          "type":1,
+          "video_length":15,
+          "video_text":"
+          - What is a typical day at work like?<br/>
+          - What kind of customers do you get?<br/>
+          - What services do you provide them?<br/>
+          ",
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": -1,
+                "audio_text":""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C4":{
+          "title":"Future Plans",
+          "type":2,
+          "video_length":15,
+          "video_text":"
+          - Have your friend take a video of<br/>
+          you against a wall. Refer to the<br/>
+          example video for this.
+          ",
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 15,
+                "audio_text":"
+                Where do you see yourself a couple of years from now? How do you want to expand your business?
+                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C5":{
+          "title":"Conclusion",
+          "type":1,
+          "video_length":3,
+          "video_text":"Wave at the camera",
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": -1,
+                "audio_text":""
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "M4": {
+    "ID": 4,
+    "title": "Test Template",
+    "for":1,
+    "scenes":[
+      {
+        "C0":{
+          "title": "Scene 1",
+          "type":1,
+          "video_text":"
+          <b>Introduce Yourself in<br/>5 seconds</b><br/><br/>
+          - Your Name<br/>
+          - Your Village<br/>
+          - Your Work",
+          "video_length":5,
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": -1,
+                "audio_text":""
+              }
+            }
+          ]
+
+        }
+      },
+      {
+        "C1":{
+          "title": "Scene 2",
+          "type":2,
+          "video_length":10,
+          "video_text":"In 10 seconds, show<br/>your family",
+          "audio_header":"Talk about your family in 5 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 5,
+                "audio_text": "
+                - What lessons have you learnt from your family?<br/>
+                - What does family do in their free time?
+                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C2":{
+          "title":"Scene 3",
+          "type":2,
+          "video_length":10,
+          "video_text":"In 10 seconds, show<br/>your home",
+          "audio_header":"Talk about your home in 5 seconds",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": 5,
+                "audio_text":"
+                - What are the things close to your house?<br/>
+                - How many rooms does your house have?<br/>
+                - What is the best thing in your house?"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "C3":{
+          "title": "Scene 4",
+          "type":1,
+          "video_text":"
+          <b>Introduce Yourself in<br/>5 seconds</b><br/><br/>
+          - Your Name<br/>
+          - Your Village<br/>
+          - Your Work",
+          "video_length":5,
+          "audio_header":"",
+          "audio":[
+            {
+              "a1":{
+                "audio_length": -1,
+                "audio_text":""
+              }
+            }
+          ]
+
+        }
+      }
+    ]
+  }
+
+}

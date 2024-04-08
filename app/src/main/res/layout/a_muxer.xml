@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/muxing_bg_color"
+        tools:context="com.qs.minigridv5.activities.AMuxer">
+
+    <RelativeLayout android:id="@+id/a_all_complete_congo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg"
+                    android:clickable="true"
+                    android:visibility="visible">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/illustration_success_first_scene"
+                android:id="@+id/a_cam_congo_img"
+                android:layout_marginTop="115dp" android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_close_white_24dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:padding="16dp"
+                android:id="@+id/imageView"
+                android:visibility="gone"
+        />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/congratulations"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_below="@+id/a_cam_congo_img"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp" android:textStyle="bold" android:id="@+id/textView"/>
+
+        <TextView
+                android:id="@+id/a_cam_congo_text"
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/all_finish_congo_text"
+                android:layout_gravity="start"
+                android:textAlignment="center" android:textColor="@color/white"
+                android:layout_below="@+id/textView" android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"/>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+                android:id="@+id/a_muxer_start_muxing_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/make_movie"
+                style="@style/MyButton"
+                android:onClick="startMuxing"
+                android:layout_gravity="bottom|center"
+                android:textSize="18sp"
+                android:elevation="32dp"
+                android:includeFontPadding="false"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+        />
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/a_muxer_muxing_layout">
+
+            <VideoView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/a_muxer_making_movie_animation"
+                    android:visibility="gone"
+            />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/making_movie"
+                    android:textSize="28dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="200dp" android:id="@+id/textView2"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loading_films"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginTop="56dp"
+                    android:layout_alignTop="@+id/textView2"
+                    android:layout_centerHorizontal="true" android:id="@+id/a_muxer_progress_text"/>
+
+            <ProgressBar
+                    android:id="@+id/a_muxer_progress_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/a_muxer_progress_text"
+                    android:layout_alignParentStart="true"
+                    android:paddingStart="28dp"
+                    android:paddingEnd="28dp"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:progressDrawable="@drawable/muxing_progress_bar"
+                    android:progress="0"
+                    android:layout_marginTop="16dp"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <!--congo-->
+
+
+
+
+</android.support.constraint.ConstraintLayout>

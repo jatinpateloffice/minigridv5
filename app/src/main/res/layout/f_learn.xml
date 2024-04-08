@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.qs.minigridv5.fragments.FLearn">
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/f_learn_movies_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/transparent"
+            android:dividerHeight="0dp"
+            android:clipToPadding="false"
+            android:scrollbars="none"
+            android:paddingBottom="136dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="16dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.qs.minigridv5">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-feature
+            android:name="android.hardware.camera"
+            android:required="true"/>
+
+    <application
+            android:name=".utilities.MyApplication"
+            android:allowBackup="false"
+            android:icon="@drawable/app_icon"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/app_icon"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <provider
+                android:name="android.support.v4.content.FileProvider"
+                android:authorities="${applicationId}.provider"
+                android:exported="false"
+                android:grantUriPermissions="true">
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <activity
+                android:name=".activities.ASplash"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.AMain"
+                android:label="@string/title_activity_amain"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activities.AIntroCarousel"
+                android:label="@string/title_activity_acarousel"
+                android:noHistory="true"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".activities.ASignUp"
+                android:noHistory="true"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity
+                android:name=".activities.AVideoPlayer"
+                android:noHistory="true"
+                android:screenOrientation="landscape"
+                android:theme="@style/DarkAppTheme">
+        </activity>
+        <activity
+                android:name=".activities.ACam"
+                android:noHistory="true"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".activities.AClipCam"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".activities.AOverview"
+                android:noHistory="true"
+                android:screenOrientation="landscape"
+                android:theme="@style/DarkAppTheme">
+        </activity>
+        <activity
+                android:name=".activities.ASelfiePlaybackScreen"
+                android:noHistory="true"
+                android:screenOrientation="landscape"
+                android:theme="@style/DarkAppTheme">
+        </activity>
+        <activity
+                android:name=".activities.AAudioRecorder"
+                android:noHistory="true"
+                android:screenOrientation="portrait"
+                android:theme="@style/DarkAppTheme">
+        </activity>
+        <activity
+                android:name=".activities.AAudioPlayer"
+                android:noHistory="true"
+                android:screenOrientation="portrait"
+                android:theme="@style/DarkAppTheme">
+        </activity>
+        <activity
+                android:name=".activities.AMuxer"
+                android:noHistory="true"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activities.ASceneEdit"
+
+                android:screenOrientation="landscape"
+                android:theme="@style/DarkAppTheme">
+        </activity>
+        <activity
+                android:name=".activities.AOverallOverview"
+                android:noHistory="true"
+                android:screenOrientation="landscape"
+                android:theme="@style/DarkAppTheme">
+        </activity>
+        <activity
+                android:name=".activities.ANameMovie"
+                android:noHistory="true"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activities.AProjectEdit"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activities.ALanguageSelect"
+                android:noHistory="true"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activities.AProfile"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activities.AYoutubePlayer"
+                android:noHistory="true"
+                android:screenOrientation="landscape">
+        </activity>
+
+        <meta-data
+                android:name="io.fabric.ApiKey"
+                android:value="295679030269fd3c3944e042c50ecf40120c19cc"/>
+
+        <activity
+                android:name=".activities.AProcessCarousel"
+                android:noHistory="true"
+                android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

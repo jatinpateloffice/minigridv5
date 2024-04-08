@@ -1,0 +1,2518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagIsRegex" value="false" />
+        <option name="logTagPattern" value="new" />
+        <option name="name" value="new" />
+        <option name="packageNamePattern" value="com.qs.minigridv5" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="Nexus 5" />
+        <device id="Nexus S" />
+        <device id="Galaxy Nexus" />
+        <device id="pixel_2" />
+        <pickBest>false</pickBest>
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+    <option name="LOGCAT_FORMAT_STRING" value="%4$c/%5$s: %6$s" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ab2baca-908f-43a3-b5d2-25e58b3cae09" name="Default" comment="camera preview stretched fix">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/ASelfiePlaybackScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/ASelfiePlaybackScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/misc/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/misc/C.java" afterDir="false" />
+    </list>
+    <list id="d0ee7cc4-5439-4607-961c-d4fb82f8764f" name="Revert: Initial commit" comment="" />
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <ignored path="app/app-release.apk" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <manually-removed-from-ignored>
+      <directory path="/" />
+    </manually-removed-from-ignored>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MiniGridv5" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MiniGridv5" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/ASplash.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="210" column="23" selection-start-line="210" selection-start-column="23" selection-end-line="210" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#onBackPressed#0;class#ASplash#0" />
+                <element signature="method#fillupCompanyArrayFromSharedPrefs#0;class#ASplash#0" />
+                <element signature="method#fillupStatesArray#0;class#ASplash#0" />
+                <element signature="method#fillupStatesArrayFromSharedPrefs#0;class#ASplash#0" />
+                <element signature="method#checkPlatformMovieStatus#0;class#ASplash#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>android:noHistory=&quot;true&quot;</find>
+      <find>WebVideos</find>
+      <find>setParam</find>
+      <find>setEl</find>
+      <find>onBac</find>
+      <find>startAc</find>
+      <find>startA</find>
+      <find>Muxer</find>
+      <find>Video</find>
+      <find>cats</find>
+      <find>auth</find>
+      <find>cancel(</find>
+      <find>CountDown</find>
+      <find>old</find>
+      <find>project.json</find>
+      <find>file.ex</find>
+      <find>backPre</find>
+      <find>if (!isCancelled())</find>
+      <find>onBack</find>
+      <find>catch</find>
+      <find>add</find>
+      <find>this frag</find>
+      <find>ImageView</find>
+      <find>Selfie</find>
+      <find>setContemt</find>
+      <find>set</find>
+      <find>ProgressDialog</find>
+      <find>Glide</find>
+      <find>navigation</find>
+      <find>navigationView</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>PREF_FILE</replace>
+      <replace>AMain</replace>
+      <replace>scenes</replace>
+      <replace>if (isCancelled()) return;</replace>
+      <replace>if (isCancelled()) return null;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app/src/main</dir>
+    </dirStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Desktop/qs_android_key" />
+    <option name="KEY_ALIAS" value="qs_android_key" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="SHOW_REMOTE_BRANCHES" value="true" />
+    <option name="ONTO" value="refs/heads/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/src/main/assets/MoviesData_en.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/x_movie_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/utilities/MultipartPOSTRequester.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.json" />
+        <option value="$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/xiaomi-redmi_note_4-0e6fdefe0404/sdcard/DCIM/MGS/movies/movies.json" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/ANameMovie.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/utilities/VideoUploader.java" />
+        <option value="$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/xiaomi-redmi_note_4-0e6fdefe0404/sdcard/DCIM/MGS/movies/1543475038514.json" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/utilities/FlowManager.java" />
+        <option value="$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/xiaomi-redmi_note_4-0e6fdefe0404/sdcard/DCIM/MGS/movies/1543473509175.json" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/utilities/MyApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FWebVideos.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AProcessCarousel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AIntroCarousel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FMake.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FFinishedProjects.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/entities/Movie.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/utilities/MovieMuxer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FPublishedMovies.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/MyFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FLearn.java" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/MoviesData_en.json" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/entities/Scene.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/MyActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FCurrentProjects.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AAudioRecorder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/f_project_show_scenes.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/f_project_tell_scenes.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/a_project_edit.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FLocalMovies.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/ACam.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AProjectEdit.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FProjectTellScenes.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FProjectShowScenes.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AAudioPlayer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AClipCam.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/ASplash.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/workers/WFileMover.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/entities/Project.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/entities/MovieTemplate.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/utilities/CameraPreview.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/misc/Helpers.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AMain.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/misc/C.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/ASelfiePlaybackScreen.java" />
+        <option value="$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/xiaomi-redmi_note_4-0e6fdefe0404/sdcard/DCIM/MG5/projects/P0 Test Template_1547447820420/project.json" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/CamActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AVideoPlayer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="737" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers AndroidView="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MiniGridv5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiniGridv5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiniGridv5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiniGridv5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiniGridv5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiniGridv5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiniGridv5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiniGridv5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiniGridv5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiniGridv5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiniGridv5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiniGridv5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="minigridv5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiniGridv5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiniGridv5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="minigridv5" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="xiaomi-redmi_note_4-0e6fdefe0404" />
+    <property name="DEBUGGABLE_PROCESS" value="com.qs.minigridv5" />
+    <property name="DEBUGGER_ID" value="Java" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildType" value="release" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="minigridv5" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="ScreenshotViewer.SavePath" value="$USER_HOME$/Desktop" />
+    <property name="SearchEverywhereHistoryKey" value="ASplash&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/activities/ASplash.java&#10;FComm&#9;PSI&#9;JAVA://com.qs.minigridv5.fragments.FCommunity&#10;AMain&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/activities/AMain.java&#10;FProjectTell&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FProjectTellScenes.java&#10;FProjectShow&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FProjectShowScenes.java&#10;FCurrent&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FCurrentProjects.java&#10;FTell&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FProjectTellScenes.java&#10;ACam&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/activities/ACam.java&#10;ANdroid&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/AndroidManifest.xml&#10;AProject&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/activities/AProjectEdit.java&#10;FLocal&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FLocalMovies.java&#10;FL&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FLibrary.java&#10;x_edit&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/res/layout/x_edit_item.xml&#10;f_li&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/res/layout/f_library.xml&#10;a_pr&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/res/layout/a_project_edit.xml&#10;FLoca&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FLocalMovies.java&#10;FLear&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FLearn.java&#10;FCurren&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FCurrentProjects.java&#10;f_project_tell&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/res/layout/f_project_tell_scenes.xml&#10;AAU&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/activities/AAudioRecorder.java&#10;FCurre&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FCurrentProjects.java&#10;Project&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/entities/Project.java&#10;FLow&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/utilities/FlowManager.java&#10;FlowMa&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/utilities/FlowManager.java&#10;Movie&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/assets/MoviesData_en.json&#10;FLearn&#9;PSI&#9;JAVA://com.qs.minigridv5.fragments.FLearn&#10;My&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/MyFragment.java&#10;Help&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/misc/Helpers.java&#10;Fpubli&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FPublishedMovies.java&#10;He&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/misc/Helpers.java&#10;Project.java&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/entities/Project.java&#10;FLibrar&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FLibrary.java&#10;FMake&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FMake.java&#10;FFini&#9;PSI&#9;JAVA://com.qs.minigridv5.fragments.FFinishedProjects&#10;ASignup&#9;PSI&#9;JAVA://com.qs.minigridv5.activities.ASignUp&#10;Intro&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/activities/AIntroCarousel.java&#10;gradle&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/build.gradle&#10;AIntro&#9;PSI&#9;JAVA://com.qs.minigridv5.activities.AIntroCarousel&#10;AProc&#9;PSI&#9;JAVA://com.qs.minigridv5.activities.AProcessCarousel&#10;Local&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/fragments/FLocalMovies.java&#10;MyApp&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/utilities/MyApplication.java&#10;ASPlash&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/activities/ASplash.java&#10;MyApplication&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/utilities/MyApplication.java&#10;VideoPla&#9;PSI&#9;JAVA://com.qs.minigridv5.activities.AVideoPlayer&#10;AUd&#9;PSI&#9;JAVA://com.qs.minigridv5.activities.AAudioRecorder&#10;SelfiePla&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/activities/ASelfiePlaybackScreen.java&#10;AndroiMan&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/AndroidManifest.xml&#10;Cam&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/activities/ACam.java&#10;Helper&#9;PSI&#9;JAVA://com.qs.minigridv5.misc.Helpers&#10;ASplas&#9;FILE&#9;file:///Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/src/main/java/com/qs/minigridv5/activities/ASplash.java" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="android.profiler.active" value="true" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551854216402" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
+    <property name="device.picker.selection" value="0e6fdefe0404" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.59439707" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/font" />
+      <recent name="$PROJECT_DIR$/app/src/main/assets" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.qs.minigridv5.activities" />
+      <recent name="com.qs.minigridv5.fragments" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
+      <recent name="$PROJECT_DIR$/app/libs" />
+      <recent name="$PROJECT_DIR$/app/src/main/assets" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.minigridstories.com" />
+          <option name="urlPath" value="api/v1/video" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="featured_only" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.minigridstories.com" />
+          <option name="urlPath" value="api/v1/video" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="video_ids" />
+                <option name="value" value="33" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="featured_only" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.minigridstories.com" />
+          <option name="urlPath" value="api/v1/video?language=en&amp;featured_only=1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="video_ids" />
+                <option name="value" value="33" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="/api/v1/video.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="video_ids" />
+                <option name="value" value="33" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="/api/v1/video.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="/api/v1/video.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="video_ids" />
+                <option name="value" value="33" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="/api/v1/video.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="video_id" />
+                <option name="value" value="33" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="/api/v1/video.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="video_id" />
+                <option name="value" value="33" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="/api/v1/video.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="9930620323" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="Jitender Kumar Thakur" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="video_id" />
+                <option name="value" value="25" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="video_id" />
+                <option name="value" value="25" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="/api/v1/video.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="9930620323" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="Jitender Kumar Thakur" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="video_id" />
+                <option name="value" value="25" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="/api/v1/upload.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="9930620323" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="Jitender Kumar Thakur" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="/api/v1/video.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="9930620323" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="Jitender Kumar Thakur" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="/api/v1/video.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="9930620323" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="Jitender Kumar Thakur" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.minigridstories.com" />
+          <option name="urlPath" value="api/v1/video" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="9930620323" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="language" />
+                <option name="value" value="en" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="Jitender Kumar Thakur" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.minigridstories.com" />
+          <option name="urlPath" value="api/v1/video?language=en&amp;username=Jitender%20Kumar%20Thakur" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="9930620323" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="api/v1/user/requestOTP.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="9930620323" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="api/v1/user/requestOTP.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="9930620321" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="api/v1/user/requestOTP.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="8971984390" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="9930620323" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="8971984391" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="api/v1/user/requestOTP.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="8971984390" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="9930620323" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="api/v1/user/requestOTP.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="mobile" />
+                <option name="value" value="8971984390" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://seabasket.in" />
+          <option name="urlPath" value="api/v1/user/requestOTP.php?mobile=9930620323" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="app" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" singleton="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiniGridv5 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MiniGridv5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="clean" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Gradle.clean" />
+      <item itemvalue="Gradle.build" />
+      <item itemvalue="Gradle.MiniGridv5 [dependencies]" />
+      <item itemvalue="Gradle.MiniGridv5" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MiniGridv5" />
+        <item itemvalue="Gradle.MiniGridv5 [dependencies]" />
+        <item itemvalue="Gradle.MiniGridv5 [dependencies]" />
+        <item itemvalue="Gradle.MiniGridv5 [dependencies]" />
+        <item itemvalue="Gradle.MiniGridv5 [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ab2baca-908f-43a3-b5d2-25e58b3cae09" name="Default" comment="" />
+      <changelist id="d0ee7cc4-5439-4607-961c-d4fb82f8764f" name="Revert: Initial commit" comment="" />
+      <created>1522996385979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522996385979</updated>
+      <workItem from="1537198077376" duration="223000" />
+      <workItem from="1537203589214" duration="275000" />
+      <workItem from="1537263223638" duration="738000" />
+      <workItem from="1537288793680" duration="149000" />
+      <workItem from="1537290520803" duration="93000" />
+      <workItem from="1537338007892" duration="1017000" />
+      <workItem from="1537339067877" duration="8275000" />
+      <workItem from="1537439521569" duration="1000" />
+      <workItem from="1537439534470" duration="232000" />
+    </task>
+    <task id="LOCAL-00040" summary="many fixes and fullscreen playback of community videos implemented">
+      <created>1528438260816</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1528438260816</updated>
+    </task>
+    <task id="LOCAL-00041" summary="- added wave when recording&#10;- initial overall overview&#10;- bug fixes here and there">
+      <created>1528704369735</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1528704369735</updated>
+    </task>
+    <task id="LOCAL-00042" summary="- new muxing animation&#10;- minor changes here and there">
+      <created>1528719390336</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1528719390336</updated>
+    </task>
+    <task id="LOCAL-00043" summary="app name change">
+      <created>1529299887702</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1529299887702</updated>
+    </task>
+    <task id="LOCAL-00044" summary="changes">
+      <created>1531904364076</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1531904364076</updated>
+    </task>
+    <task id="LOCAL-00045" summary="quest version 1">
+      <created>1533634368600</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1533634368600</updated>
+    </task>
+    <task id="LOCAL-00046" summary="new template">
+      <created>1533637675572</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1533637675572</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fixing project status completion updating">
+      <created>1533638909974</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1533638909974</updated>
+    </task>
+    <task id="LOCAL-00048" summary="changed recording resolution">
+      <created>1533705526626</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1533705526626</updated>
+    </task>
+    <task id="LOCAL-00049" summary="project name change upon making movie">
+      <created>1533722531081</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1533722531081</updated>
+    </task>
+    <task id="LOCAL-00050" summary="video quality changes">
+      <created>1533966597403</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1533966597404</updated>
+    </task>
+    <task id="LOCAL-00051" summary="project name change upon making movie">
+      <created>1533968655132</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1533968655133</updated>
+    </task>
+    <task id="LOCAL-00052" summary="- renaming of Category to Scene&#10;- readme update">
+      <created>1536211253709</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1536211253709</updated>
+    </task>
+    <task id="LOCAL-00053" summary="first implementation of touch to focus">
+      <created>1536743217546</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1536743217547</updated>
+    </task>
+    <task id="LOCAL-00054" summary="crashlytics integration">
+      <created>1536818467375</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1536818467376</updated>
+    </task>
+    <task id="LOCAL-00055" summary="- testing exposure on the app&#10;- MovieMuxer cleanup">
+      <created>1537951224453</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1537951224454</updated>
+    </task>
+    <task id="LOCAL-00056" summary="- scene prompt minimizing and maximizing">
+      <created>1537954772898</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1537954772898</updated>
+    </task>
+    <task id="LOCAL-00057" summary="add project progress bar">
+      <created>1538043929423</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1538043929424</updated>
+    </task>
+    <task id="LOCAL-00058" summary="clean up">
+      <created>1538045942158</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1538045942158</updated>
+    </task>
+    <task id="LOCAL-00059" summary="- community videos api change&#10;- added some more crashytics loggers">
+      <created>1538048011712</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1538048011713</updated>
+    </task>
+    <task id="LOCAL-00060" summary="- increased buffer size for sample reading to tackle muxing failed issue&#10;- project status update fix after selfie recording&#10;- minor Ui changes in audio recorder screen">
+      <created>1538121162666</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1538121162667</updated>
+    </task>
+    <task id="LOCAL-00061" summary="- community video api change">
+      <created>1538396868867</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1538396868868</updated>
+    </task>
+    <task id="LOCAL-00062" summary="- adding left out drawables">
+      <created>1538989018320</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1538989018321</updated>
+    </task>
+    <task id="LOCAL-00063" summary="- new test template">
+      <created>1538990116628</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1538990116628</updated>
+    </task>
+    <task id="LOCAL-00064" summary="- new test template&#10;- cleanup in Muxer class">
+      <created>1539164234786</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1539164234788</updated>
+    </task>
+    <task id="LOCAL-00065" summary="- Heavy muxer code refactoring&#10;- Possible fix to audio-video out of sync in movie">
+      <created>1539254964001</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1539254964003</updated>
+    </task>
+    <task id="LOCAL-00066" summary="- app projects will now be stored internally&#10;- file structure restructuring&#10;- video player can now play videos from assets&#10;- Learn video now loaded from assets">
+      <created>1539337554648</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1539337554648</updated>
+    </task>
+    <task id="LOCAL-00067" summary="- ACam minor code cleanup&#10;- ACam's project progressbar won't showup when editing a scene&#10;- Updated UI and functionality of AClipCam&#10;-">
+      <created>1539595365088</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1539595365089</updated>
+    </task>
+    <task id="LOCAL-00068" summary="- Audio and Video playback pausing from Edit Screen&#10;- AudioRecording UI updates&#10;- Scene pojo changes">
+      <created>1539667788732</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1539667788734</updated>
+    </task>
+    <task id="LOCAL-00069" summary="- Edit Screen playback UI fixes">
+      <created>1539677044384</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1539677044384</updated>
+    </task>
+    <task id="LOCAL-00070" summary="- minor changes">
+      <created>1539681490545</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1539681490546</updated>
+    </task>
+    <task id="LOCAL-00071" summary="- project files now stored on external card">
+      <created>1539757866735</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1539757866737</updated>
+    </task>
+    <task id="LOCAL-00072" summary="- trial implementation of webm [default is still mp4]&#10;- removed unnecessary movie templates&#10;- renamed Scene.videoFiles var to videoClips&#10;- removed Toasts in signup pages from Abhishek&#10;- temp disabled registration from FSignupState&#10;- constant to toggle HD and SD video recording">
+      <created>1540208247434</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1540208247435</updated>
+    </task>
+    <task id="LOCAL-00073" summary="- signup activity be resumed i.e. it is added to backstack&#10;- minor refactorings">
+      <created>1540358747683</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1540358747684</updated>
+    </task>
+    <task id="LOCAL-00074" summary="- tutorial videos now loaded from assets">
+      <created>1540361446335</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1540361446335</updated>
+    </task>
+    <task id="LOCAL-00075" summary="- modifications in Abhishek's signup and otp verification code">
+      <created>1540789666402</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1540789666403</updated>
+    </task>
+    <task id="LOCAL-00076" summary="(My changes in abhi's branch)&#10;- refactorings in Scene and Project entities&#10;- saving and loading projects via json&#10;-">
+      <created>1540800838310</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1540800838310</updated>
+    </task>
+    <task id="LOCAL-00077" summary="- now project status is stored in json on external card, so projects will be restored after re-install&#10;- info message shown upon SD card write permission denial&#10;- allowbackup = false in manifest to prevent auto backing up of SharedPrefs">
+      <created>1540806117493</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1540806117493</updated>
+    </task>
+    <task id="LOCAL-00078" summary="- temporarily disabled publishing&#10;- movie naming revamped">
+      <created>1540813293800</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1540813293800</updated>
+    </task>
+    <task id="LOCAL-00079" summary="- made changes to abhishek's community video code">
+      <created>1540981595485</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1540981595487</updated>
+    </task>
+    <task id="LOCAL-00080" summary="incorporated new splash images and some reworking with Carousel">
+      <created>1541056083181</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1541056083183</updated>
+    </task>
+    <task id="LOCAL-00081" summary="intro carousel">
+      <created>1541136149580</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1541136149581</updated>
+    </task>
+    <task id="LOCAL-00082" summary="- replaced Overview and OverallOverview screens with FlowManager&#10;- added carousel before starting a project&#10;- other changes">
+      <created>1541172559641</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1541172559641</updated>
+    </task>
+    <task id="LOCAL-00083" summary="added Crashlytics logging in remaining exceptions">
+      <created>1542006772785</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1542006772786</updated>
+    </task>
+    <task id="LOCAL-00084" summary="- moved movies arraylist to MyApplication&#10;- minor crash fixes">
+      <created>1542100821069</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1542100821070</updated>
+    </task>
+    <task id="LOCAL-00085" summary="- moved projects arraylist to MyApplication&#10;- minor UI and functionality changes AudioRecorder, AudioPlayer&#10;- signup company and states fragments skipped if no data from backend">
+      <created>1542106086579</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1542106086580</updated>
+    </task>
+    <task id="LOCAL-00086" summary="- project id changed to long and now is timestamp&#10;- project now fetched form MyApplication instead of AMain">
+      <created>1542111129497</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1542111129497</updated>
+    </task>
+    <task id="LOCAL-00087" summary="minor bug fix">
+      <created>1542114380912</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1542114380912</updated>
+    </task>
+    <task id="LOCAL-00088" summary="camera preview stretched fix">
+      <created>1542175092059</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1542175092059</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11003000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="737" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info x="925" y="101" width="310" height="323" id="Structure" order="4" sideWeight="0.5973254" side_tool="true" weight="0.22455573" />
+      <window_info id="Favorites" order="5" sideWeight="0.59322035" side_tool="true" weight="0.22374798" />
+      <window_info id="Android Model" order="6" sideWeight="0.48029196" side_tool="true" weight="0.259375" />
+      <window_info content_ui="combo" x="504" y="29" width="513" height="670" id="Project" order="7" sideWeight="0.4026746" weight="0.17851374" />
+      <window_info id="Gradle" order="8" weight="0.20759289" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.4234234" />
+      <window_info anchor="bottom" x="540" y="45" width="740" height="690" id="Debug" order="2" sideWeight="0.4983845" weight="0.4246988" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" x="0" y="45" width="1068" height="690" id="Logcat" order="5" sideWeight="0.25667655" weight="0.64174455" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.5200594" />
+      <window_info anchor="bottom" id="Build Variants" order="7" side_tool="true" weight="0.32411674" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.503231" side_tool="true" weight="0.66757494" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.58074075" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3122102" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49676898" weight="0.67601246" />
+      <window_info anchor="bottom" id="Android Monitor" order="12" sideWeight="0.49722" weight="0.35079366" />
+      <window_info anchor="bottom" id="Analyze Dataflow to" order="13" weight="0.32930514" />
+      <window_info anchor="bottom" id="Captures" order="14" sideWeight="0.4943182" weight="0.3254086" />
+      <window_info anchor="bottom" x="113" y="91" width="1029" height="610" id="Dependency Viewer" order="15" weight="0.7073864" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.35215452" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32732734" />
+      <window_info anchor="bottom" x="28" y="52" width="1238" height="655" id="Android Profiler" order="18" show_stripe_button="false" weight="0.4920635" />
+      <window_info anchor="bottom" id="Database Changes" order="19" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="REST Client" order="20" visible="true" weight="0.3990964" />
+      <window_info anchor="bottom" id="Docker" order="21" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Duplicates" order="22" weight="0.32882884" />
+      <window_info anchor="bottom" id="Duplicate detector" order="23" weight="0.32880434" />
+      <window_info anchor="right" id="StringPreview" order="0" />
+      <window_info anchor="right" id="Dynamic Properties" order="1" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.24959612" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" sideWeight="0.4018127" weight="0.29321486" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" x="768" y="61" width="411" height="611" id="Preview" order="8" sideWeight="0.2891933" weight="0.2956381" />
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="right" id="PlantUML" order="10" weight="0.42649436" />
+      <window_info anchor="right" id="Maven Projects" order="11" />
+      <window_info anchor="right" auto_hide="true" x="100" y="122" width="1080" height="578" id="Documentation" order="12" sideWeight="0.54545456" side_tool="true" weight="0.2573471" />
+      <window_info anchor="right" id="Fabric" order="13" weight="0.36268175" />
+      <window_info anchor="right" id="Database" order="14" weight="0.32956383" />
+      <window_info anchor="right" id="Device File Explorer" order="15" sideWeight="0.74332345" side_tool="true" weight="0.30775446" />
+      <window_info anchor="right" x="0" y="45" width="1280" height="691" id="Find" order="16" type="WINDOWED" weight="0.4006462" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info content_ui="combo" x="504" y="29" width="513" height="670" id="Project" order="4" sideWeight="0.40557274" weight="0.2253635" />
+      <window_info x="925" y="101" width="310" height="323" id="Structure" order="5" sideWeight="0.5944272" side_tool="true" weight="0.22374798" />
+      <window_info id="Favorites" order="6" sideWeight="0.59322035" side_tool="true" weight="0.22374798" />
+      <window_info id="Android Model" order="7" sideWeight="0.48029196" side_tool="true" weight="0.259375" />
+      <window_info id="Gradle" order="8" weight="0.20759289" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.4234234" />
+      <window_info anchor="bottom" x="540" y="45" width="740" height="690" id="Debug" order="2" sideWeight="0.4983845" weight="0.42642644" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.521021" />
+      <window_info anchor="bottom" id="Build Variants" order="6" side_tool="true" weight="0.32411674" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.503231" side_tool="true" weight="0.6687307" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5840841" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3122102" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49676898" weight="0.6771772" />
+      <window_info anchor="bottom" id="Android Monitor" order="11" sideWeight="0.49722" weight="0.35079366" />
+      <window_info anchor="bottom" id="Analyze Dataflow to" order="12" weight="0.32930514" />
+      <window_info anchor="bottom" id="Captures" order="13" sideWeight="0.4943182" weight="0.32582584" />
+      <window_info anchor="bottom" x="113" y="91" width="1029" height="610" id="Dependency Viewer" order="14" weight="0.7073864" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.35435435" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32862645" />
+      <window_info anchor="bottom" x="28" y="52" width="1238" height="655" id="Android Profiler" order="17" weight="0.5923483" />
+      <window_info anchor="bottom" id="Database Changes" order="18" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="19" weight="0.6516517" />
+      <window_info anchor="right" id="StringPreview" order="0" />
+      <window_info anchor="right" id="Dynamic Properties" order="1" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.24959612" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" sideWeight="0.4018127" weight="0.29321486" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" x="768" y="61" width="411" height="611" id="Preview" order="8" sideWeight="0.2891933" weight="0.55815834" />
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="right" id="PlantUML" order="10" weight="0.42649436" />
+      <window_info anchor="right" id="Maven Projects" order="11" />
+      <window_info anchor="right" auto_hide="true" x="100" y="122" width="1080" height="578" id="Documentation" order="12" sideWeight="0.54545456" side_tool="true" weight="0.2573471" />
+      <window_info anchor="right" id="Fabric" order="13" weight="0.36268175" />
+      <window_info anchor="right" id="Database" order="14" weight="0.32956383" />
+      <window_info active="true" anchor="right" x="0" y="45" width="1068" height="690" id="Logcat" order="15" sideWeight="0.4099099" visible="true" weight="0.4450727" />
+      <window_info anchor="right" id="Device File Explorer" order="16" sideWeight="0.5900901" side_tool="true" weight="0.40710825" />
+      <window_info anchor="right" x="0" y="45" width="1280" height="691" id="Find" order="17" type="WINDOWED" weight="0.4006462" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="SHOW_DETAILS_IN_CHANGES" value="false" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/abhishek" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="abhishek_changes" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="- new test template&#10;- cleanup in Muxer class" />
+    <MESSAGE value="- Heavy muxer code refactoring&#10;- Possible fix to audio-video out of sync in movie" />
+    <MESSAGE value="- app projects will now be stored internally&#10;- file structure restructuring&#10;- video player can now play videos from assets&#10;- Learn video now loaded from assets" />
+    <MESSAGE value="- ACam minor code cleanup&#10;- ACam's project progressbar won't showup when editing a scene&#10;- Updated UI and functionality of AClipCam&#10;-" />
+    <MESSAGE value="- Audio and Video playback pausing from Edit Screen&#10;- AudioRecording UI updates&#10;- Scene pojo changes" />
+    <MESSAGE value="- Edit Screen playback UI fixes" />
+    <MESSAGE value="- minor changes" />
+    <MESSAGE value="- project files now stored on external card" />
+    <MESSAGE value="- trial implementation of webm [default is still mp4]&#10;- removed unnecessary movie templates&#10;- renamed Scene.videoFiles var to videoClips&#10;- removed Toasts in signup pages from Abhishek&#10;- temp disabled registration from FSignupState&#10;- constant to toggle HD and SD video recording" />
+    <MESSAGE value="- signup activity be resumed i.e. it is added to backstack&#10;- minor refactorings" />
+    <MESSAGE value="- tutorial videos now loaded from assets" />
+    <MESSAGE value="- modifications in Abhishek's signup and otp verification code" />
+    <MESSAGE value="(My changes in abhi's branch)&#10;- refactorings in Scene and Project entities&#10;- saving and loading projects via json&#10;-" />
+    <MESSAGE value="- now project status is stored in json on external card, so projects will be restored after re-install&#10;- info message shown upon SD card write permission denial&#10;- allowbackup = false in manifest to prevent auto backing up of SharedPrefs" />
+    <MESSAGE value="- temporarily disabled publishing&#10;- movie naming revamped" />
+    <MESSAGE value="- made changes to abhishek's community video code" />
+    <MESSAGE value="incorporated new splash images and some reworking with Carousel" />
+    <MESSAGE value="intro carousel" />
+    <MESSAGE value="- replaced Overview and OverallOverview screens with FlowManager&#10;- added carousel before starting a project&#10;- other changes" />
+    <MESSAGE value="added Crashlytics logging in remaining exceptions" />
+    <MESSAGE value="- moved movies arraylist to MyApplication&#10;- minor crash fixes" />
+    <MESSAGE value="- moved projects arraylist to MyApplication&#10;- minor UI and functionality changes AudioRecorder, AudioPlayer&#10;- signup company and states fragments skipped if no data from backend" />
+    <MESSAGE value="- project id changed to long and now is timestamp&#10;- project now fetched form MyApplication instead of AMain" />
+    <MESSAGE value="minor bug fix" />
+    <MESSAGE value="camera preview stretched fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="camera preview stretched fix" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/MyActivity.java</url>
+          <line>243</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="myApp" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>new File(C.MOVIES_DIR).listFiles()[0].getAbsolutePath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(C.MOVIES_DIR).listFiles()[0].getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(C.MOVIES_DIR).listFiles()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(C.MOVIES_DIR).list()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(C.MOVIES_DIR).isDirectory()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(C.MOVIES_DIR).getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(C.MOVIES_DIR).exists()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(C.MOVIES_DIR)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>movieTemplate.project.thumbnail.getWidth()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>myApp.getMovies()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>AMain.projects</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>moviesFileNames</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>myApp.getProjects().isEmpty()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Helpers.calculateClipLength(video)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cam</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cameraPresent()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>MyApplication.getInstance().getProjects()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Long.parseLong(Helpers.getTimeStamp())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(int)Double.parseDouble(Helpers.getTimeStamp())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Double.parseDouble(Helpers.getTimeStamp())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Helpers.getTimeStamp().charAt(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/a_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="n#FrameLayout#0;n#FrameLayout#0;n#android.support.constraint.ConstraintLayout#0;n#!!top" />
+            <element signature="n#FrameLayout#1;n#FrameLayout#0;n#android.support.constraint.ConstraintLayout#0;n#!!top" />
+            <element signature="n#FrameLayout#2;n#FrameLayout#0;n#android.support.constraint.ConstraintLayout#0;n#!!top" />
+            <element signature="n#FrameLayout#3;n#FrameLayout#0;n#android.support.constraint.ConstraintLayout#0;n#!!top" />
+            <element signature="n#FrameLayout#4;n#FrameLayout#0;n#android.support.constraint.ConstraintLayout#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/signup/FSignupVerify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="144" column="43" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/x_youtube_video_item.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="n#FrameLayout#0;n#FrameLayout#0;n#LinearLayout#0;n#android.support.v7.widget.CardView#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fuser_youtube_videos.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/f_community.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="n#FrameLayout#0;n#FrameLayout#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FCommunity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FWebVideos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/ASelfiePlaybackScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="67" column="34" lean-forward="true" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+          <folding>
+            <element signature="e#3550#3580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/xiaomi-redmi_note_4-0e6fdefe0404/sdcard/DCIM/MG5/movies/1547448239783.json" />
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/xiaomi-redmi_note_4-0e6fdefe0404/sdcard/DCIM/MG5/projects/P0 Test Template_1547447820420/project.json" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/MoviesData_en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="582" column="9" selection-start-line="582" selection-start-column="8" selection-end-line="582" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#M0#0;n#!!top" />
+            <element signature="n#!!block;n#M1#0;n#!!top" />
+            <element signature="n#!!block;n#M2#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/entities/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+          <folding>
+            <element signature="e#1415#1435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/entities/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="277" column="40" lean-forward="true" selection-start-line="277" selection-start-column="40" selection-end-line="277" selection-end-column="40" />
+          <folding>
+            <element signature="method#getJsonToSaveString#0;class#Project#0" />
+            <element signature="method#toString#0;class#Project#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/a_scene_edit.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/a_overview.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="24953" column="21" selection-start-line="24953" selection-start-column="21" selection-end-line="24953" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+          <folding>
+            <element signature="method#changeStatusBarColor#0;class#MyActivity#0" />
+            <element signature="class#DataRestorer#0;class#MyActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/utilities/CameraPreview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_toolbar.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AAudioRecorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="122" column="24" lean-forward="true" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+          <folding>
+            <element signature="e#10068#10971#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AAudioPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="223" column="32" selection-start-line="218" selection-start-column="8" selection-end-line="223" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/misc/Helpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-686">
+          <caret line="254" column="25" selection-start-line="254" selection-start-column="25" selection-end-line="254" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/utilities/MyMuxer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/utilities/SimpleMuxer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="method#doTheMux#0;class#SimpleMuxer#0" />
+            <element signature="method#setupTracks#0;class#SimpleMuxer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/entities/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/entities/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AMuxer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="109" column="39" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AProjectEdit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/utilities/MovieMuxer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="152" column="32" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
+          <folding>
+            <element signature="method#doTheMux#0;class#MovieMuxer#0" />
+            <element signature="method#setupTracks#0;class#MovieMuxer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/ASceneEdit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FProjectTellScenes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="99" column="48" selection-start-line="99" selection-start-column="48" selection-end-line="99" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/CamActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="306" column="26" selection-start-line="306" selection-start-column="26" selection-end-line="306" selection-end-column="26" />
+          <folding>
+            <element signature="method#onRequestPermissionsResult#0;class#CamActivity#0" />
+            <element signature="method#getCameraInstance#0;class#CamActivity#0" />
+            <element signature="method#getCamcorderProfile#0;class#CamActivity#0" />
+            <element signature="method#stopRecording#0;class#CamActivity#0" />
+            <element signature="method#doTheAutoFocus#0;class#CamActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/workers/WFileMover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/a_cam.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/round_button_wire_blue.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AClipCam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="192" column="25" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/ACam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="811" column="42" lean-forward="true" selection-start-line="811" selection-start-column="42" selection-end-line="811" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/featured_youtube_videos.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AVideoPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="120" column="19" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/AMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="86" column="52" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/utilities/MultipartPOSTRequester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/utilities/VideoUploader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/FLocalMovies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3975">
+          <caret line="299" column="44" selection-start-line="299" selection-start-column="44" selection-end-line="299" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/a_video_player.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="65" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/video_seek_bar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/misc/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/fragments/signup/FSignupPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="125" column="32" lean-forward="true" selection-start-line="118" selection-start-column="12" selection-end-line="125" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qs/minigridv5/activities/ASplash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="210" column="23" selection-start-line="210" selection-start-column="23" selection-end-line="210" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onBackPressed#0;class#ASplash#0" />
+            <element signature="method#fillupCompanyArrayFromSharedPrefs#0;class#ASplash#0" />
+            <element signature="method#fillupStatesArray#0;class#ASplash#0" />
+            <element signature="method#fillupStatesArrayFromSharedPrefs#0;class#ASplash#0" />
+            <element signature="method#checkPlatformMovieStatus#0;class#ASplash#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android-Gradle</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.59439707" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: __local_jars__:/Users/pranay/Projects/IdeaProjects/Android/MiniGridv5/app/libs/YouTubeAndroidPlayerApi.jar:unspecified@jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.59439707" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

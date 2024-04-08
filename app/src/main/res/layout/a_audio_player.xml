@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.qs.minigridv5.activities.AAudioPlayer">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/a_audio_player_header_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="136dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginEnd="56dp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+        />
+
+        <FrameLayout
+                android:id="@+id/a_audio_player_play_btn"
+                android:layout_width="86dp"
+                android:layout_height="86dp"
+                android:layout_gravity="center">
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/round_button_gray"
+            />
+            <ImageView
+                    android:id="@+id/a_audio_player_start_icon"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/ic_play_arrow_white_24dp"
+                    android:layout_gravity="center"
+                    android:tint="@color/white"
+            />
+            <ImageView
+                    android:id="@+id/a_audio_player_stop_icon"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/ic_stop_white_24dp"
+                    android:layout_gravity="center"
+                    android:tint="@color/white"
+            />
+        </FrameLayout>
+
+        <Button
+                android:id="@+id/a_audio_player_save_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_done_white_24dp"
+                android:text="@string/save"
+                style="@style/MyButton"
+                android:layout_gravity="end|bottom"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="56dp"
+        />
+
+        <Button
+                android:id="@+id/a_audio_player_re_record_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_autorenew_white_24dp"
+                android:text="@string/re_record"
+                style="@style/MyNegativeButton"
+                android:layout_gravity="start|bottom"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="56dp"
+        />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

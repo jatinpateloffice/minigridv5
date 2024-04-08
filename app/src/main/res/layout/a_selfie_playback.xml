@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.qs.minigridv5.activities.ASelfiePlaybackScreen">
+
+    <VideoView
+            android:id="@+id/a_player_videoview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+    />
+
+    <Button
+            android:id="@+id/a_selfie_playback_save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:drawableEnd="@drawable/ic_done_white_24dp"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:background="@drawable/round_button_accent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="32dp"
+            android:onClick="save"
+    />
+
+    <Button
+            android:id="@+id/a_selfie_playback_retake_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:drawableEnd="@drawable/ic_autorenew_white_24dp"
+            android:text="@string/re_record"
+            style="@style/MyNegativeButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginBottom="32dp"
+            android:onClick="retake"
+    />
+
+</RelativeLayout>

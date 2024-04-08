@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/title_community"
+            app:showAsAction="always|withText"/>
+
+    <item
+            android:id="@+id/nav_learn"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/title_learn"
+            app:showAsAction="always|withText"/>
+
+    <item
+            android:id="@+id/nav_make"
+            android:icon="@drawable/ic_movie_filter_black_24dp"
+            android:title="@string/title_make"
+            app:showAsAction="always|withText"
+    />
+
+    <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_video_library_black_24dp"
+            android:title="@string/title_library"
+            app:showAsAction="always|withText"
+    />
+
+</menu>

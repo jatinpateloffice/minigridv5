@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.qs.minigridv5.fragments.FFinishedProjects">
+
+    <LinearLayout
+            android:id="@+id/f_no_finished_projects_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="36dp">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/illustration_banao_complete_project"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="6dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_finished_projects"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:padding="32dp"
+                android:textColor="@color/dark_gray"
+        />
+
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/f_finished_projects_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/transparent"
+            android:dividerHeight="16dp"
+            android:clipToPadding="false"
+            android:scrollbars="none"
+            android:paddingBottom="136dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="16dp"
+    >
+
+    </ListView>
+
+</FrameLayout>
